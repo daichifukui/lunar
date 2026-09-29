@@ -573,7 +573,7 @@ static void err_message( void)
 
 static void show_astcheck_info( void)
 {
-   printf( "ASTCHECK version\n");
+   printf( "ASTCHECK version %s\n", VERSION_DATE);
    printf( "%d objects\n", n_asteroids);
 }
 
